@@ -1,0 +1,81 @@
+/* Responsive */
+@media (min-width: 1024px) {
+  #nav li:first-child {
+    display: inline-block;
+  }
+  #nav .subnav {
+    position: absolute;
+  }
+}
+
+/* TABLET */
+@media (min-width: 740px) and (max-width: 1023px) {
+  #nav .subnav {
+    position: absolute;
+  }
+
+  /* .map-album-img {
+    width: 40vw;
+  } */
+  .info-wrapper {
+    padding: 9rem;
+    padding-top: 4rem;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 740px) {
+  .s-full-width,
+  .s-col-full {
+    width: 100% !important;
+  }
+
+  .s-mt8 {
+    margin-top: 0.8rem !important;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  #header ul {
+    display: block;
+  }
+
+  #header .menu-bars {
+    display: block;
+  }
+
+  #nav > li:first-child {
+    display: inline-block;
+  }
+
+  #nav li {
+    display: block;
+  }
+
+  #nav .subnav li {
+    display: block;
+    background-color: rgb(185, 179, 179);
+  }
+
+  #nav > li:hover > a {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .search-btn {
+    display: none;
+  }
+
+  #slider .text-content .text-heading {
+    font-size: 2rem;
+  }
+  #slider .text-content .text-desc {
+    font-size: 1.2rem;
+  }
+
+  .tour .ticket-list {
+    text-align: center;
+  }
+}
